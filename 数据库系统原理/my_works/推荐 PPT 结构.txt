@@ -1,0 +1,127 @@
+推荐 PPT 结构如下
+
+第 1 页：封面
+标题：《RAG 中的向量检索：向量数据库如何为大模型找到外部知识》
+副标题：以向量数据库为核心的数据存储、索引与检索机制
+
+第 2 页：目录
+四个部分：
+一、从 RAG 引入向量数据库
+二、向量数据库的基本概念与系统架构
+三、向量检索与索引机制
+四、应用、对比与前沿挑战
+
+第 3 页：引入：传统 LLM 的局限
+讲幻觉、知识过时、无法访问私有知识、缺乏来源可追溯。
+
+第 4 页：RAG 是什么
+定义 Retrieval-Augmented Generation：先检索外部知识，再增强生成。
+强调 RAG 不是让模型背下所有知识，而是让模型学会查资料。
+
+第 5 页：RAG 基本流程
+画流程图：
+User Query → Query Embedding → Vector Database Retrieval → Relevant Chunks → Prompt Assembly → LLM Generation → Answer
+标出 Indexing / Retrieval / Generation 三阶段。
+
+第 6 页：Embedding：非结构化数据如何进入数据库
+文本/图片/音频 → embedding model → 高维向量。
+说明向量表达语义，语义相近的数据在向量空间中距离更近。
+
+第 7 页：从 RAG 引出向量数据库
+说明 RAG 需要长期保存大量 chunk embedding，因此需要向量数据库。
+
+第 8 页：什么是向量数据库
+根据论文总结
+
+第 9 页：向量数据库的核心功能
+根据论文总结
+
+第 10 页：向量数据库系统架构
+根据论文总结
+画演示图
+
+第 12 页：向量检索的查询类型
+根据论文总结
+介绍 Top-K / kNN /  Range Search等
+RAG 中最常见的是给定 query vector，找最相似的 Top-K chunks。
+
+第 13 页：相似度如何度量
+介绍 Cosine Similarity、Euclidean Distance / L2、Inner Product。
+
+
+第 14 页：为什么不能暴力扫描
+根据论文总结
+说明 naive search 要把 query vector 和所有向量逐一比较，复杂度随数据量线性增长。
+连接“大数据”背景：文档越多、chunk 越多，检索延迟越高。
+
+第 15 页：ANN：用近似换速度
+根据论文总结
+定义 Approximate Nearest Neighbor。
+强调 trade-off：速度、召回率、内存、构建时间、更新成本。
+类比数据库课中的索引评价标准：查询时间、插入删除时间、空间开销。
+
+第 16 页：向量索引方法概览
+根据论文总结
+Hash-based：LSH
+Tree-based：KD-tree / ANNOY
+Graph-based：HNSW
+Quantization-based：IVF / PQ。
+
+第 17 页：HNSW 直观解释
+画多层图：
+高层：少量节点、长距离边、快速粗定位
+低层：大量节点、短距离边、精细搜索
+用一句话总结：从高层入口逐层下降，用贪心搜索逼近最近邻。
+
+第 18 页：IVF / PQ 简介
+IVF：先聚类，再只搜索相关簇。
+PQ：把向量压缩，减少存储和计算。
+强调它们解决的是“大规模向量的存储与搜索效率”问题。
+
+第 19 页：向量数据库在 RAG 中的完整工作流
+画入库流程和查询流程：
+入库：文档 → 清洗 → chunking → embedding → vector DB + metadata
+查询：问题 → embedding → ANN search → metadata filter → rerank → prompt → LLM
+
+第 20 页：复杂 RAG 查询：Filter / Hybrid / Rerank
+根据论文总结
+1. Metadata Filter
+2. Hybrid Search
+3. Rerank
+
+第 21 页：向量数据库 vs 传统关系数据库
+做对比表：
+数据对象：表/元组 vs embedding 向量 + metadata
+查询方式：SQL 精确查询 vs 相似性 Top-K 查询
+索引：B+树/Hash vs HNSW/IVF/PQ
+结果：满足谓词的记录 vs 最相似的候选
+优化目标：I/O 代价、选择率 vs 延迟、召回率、内存、更新成本
+强调二者不是替代关系，而是互补关系。
+
+第 23 页：主流系统与生态
+简要列出：
+Faiss：向量检索库
+Milvus / Qdrant / Weaviate / Pinecone：原生向量数据库
+pgvector / Elasticsearch / PostgreSQL 扩展：传统系统扩展向量能力
+注意不要做产品广告，只做分类介绍。
+
+第 24 页：前沿挑战与发展方向
+列出：
+大规模低延迟检索
+动态更新与索引维护
+混合查询优化
+Filtered Vector Search
+多模态向量检索
+GraphRAG / Agentic RAG
+隐私、安全、权限控制
+评价指标：Recall、Latency、Faithfulness
+
+[[2005.11401] Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
+
+[2312.10997](https://arxiv.org/pdf/2312.10997) (Retrieval-Augmented Generation for Large Language Models: A Survey)
+
+https://arxiv.org/abs/2310.14021 **Survey of Vector Database Management Systems**
+
+[[2310.11703] A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge](https://arxiv.org/abs/2310.11703)
+
+https://arxiv.org/abs/1603.09320 HNSW
