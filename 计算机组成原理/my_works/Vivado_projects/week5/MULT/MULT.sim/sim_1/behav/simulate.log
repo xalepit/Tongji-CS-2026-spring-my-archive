@@ -1,0 +1,13 @@
+# ** Error: (vish-7) Failed to open ini file "C:/modeltech_pe_10.4c/win32pe/../modelsim.ini" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error: (vish-7) Failed to open ini file "C:/modeltech_pe_10.4c/win32pe/../modelsim.ini" in read mode.
+# Invalid argument. (errno = EINVAL)
+# do {MULT_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -lib xil_defaultlib xil_defaultlib.MULT_tb xil_defaultlib.glbl 
+# Start time: 15:08:21 on Apr 02,2026
+# Loading xil_defaultlib.MULT_tb
+# Loading xil_defaultlib.MULT
+# Loading xil_defaultlib.glbl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree

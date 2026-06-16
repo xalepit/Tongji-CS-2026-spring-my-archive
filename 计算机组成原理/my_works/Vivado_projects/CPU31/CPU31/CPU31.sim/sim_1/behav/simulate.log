@@ -1,0 +1,37 @@
+# ** Error: (vish-7) Failed to open ini file "C:/modeltech_pe_10.4c/win32pe/../modelsim.ini" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error: (vish-7) Failed to open ini file "C:/modeltech_pe_10.4c/win32pe/../modelsim.ini" in read mode.
+# Invalid argument. (errno = EINVAL)
+# do {cpu_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L dist_mem_gen_v8_0_10 -L xil_defaultlib -lib xil_defaultlib xil_defaultlib.cpu_tb xil_defaultlib.glbl 
+# Start time: 19:23:24 on May 17,2026
+# Loading xil_defaultlib.cpu_tb
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading xil_defaultlib.cpu
+# Loading xil_defaultlib.PC
+# Loading xil_defaultlib.inst_decoder
+# Loading xil_defaultlib.controller
+# Loading xil_defaultlib.regfile
+# Loading xil_defaultlib.alu
+# Loading xil_defaultlib.IMEM
+# Loading xil_defaultlib.dist_mem_gen_0
+# Loading dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10
+# Loading xil_defaultlib.DMEM
+# Loading xil_defaultlib.glbl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 1048 of file "dist_mem_gen_0.mif". Expected 2048, found 1047.    : ../../../CPU31.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v(234)
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sc_inst/imem/imem/inst
+restart -f
+run -all
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 1048 of file "dist_mem_gen_0.mif". Expected 2048, found 1047.    : ../../../CPU31.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v(234)
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sc_inst/imem/imem/inst
+# ** Note: $finish    : ../../../CPU31.srcs/sim_1/new/cpu_tb.v(98)
+#    Time: 500051 ns  Iteration: 0  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at ../../../CPU31.srcs/sim_1/new/cpu_tb.v line 98
+# End time: 20:00:46 on May 17,2026, Elapsed time: 0:37:22
+# Errors: 0, Warnings: 2

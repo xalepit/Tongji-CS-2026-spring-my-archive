@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Apr 07 16:36:37 2026">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="1f0cea48234b41219944ac63f3c32893" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="NewProject" value="3" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="2" type="JavaHandler"/>
+<property name="SimulationRun" value="6" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="1" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="APPLY, Apply" value="1" type="GuiResourceData"/>
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 0, 47" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 1, 30" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 115, 237" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 115, 49" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 121, 238" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 123, 235" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 126, 197" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 139, 136" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 14, 244" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 145, 222" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 148, 428" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 153, 216" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 155, 371" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 156, 156" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 156, 301" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 156, 308" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 159, 251" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 160, 259" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 162, 222" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 167, 291" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 168, 314" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 17, 333" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 170, 210" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 174, 445" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 176, 333" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 176, 333, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 180, 273" value="2" type="GuiResourceData"/>
+<property name="DIVU.v, 183, 281" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 19, 296" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 191, 279" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 193, 352" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 194, 167" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 195, 257" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 197, 331" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 197, 353" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 198, 316" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 198, 370" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 199, 330" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 20, 143" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 201, 280" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 204, 286" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 204, 349" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 207, 312" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 209, 312" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 209, 330" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 211, 333" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 213, 281" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 216, 249" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 216, 370" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 219, 155" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 22, 124" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 23, 143" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 232, 233" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 232, 276" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 234, 118" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 237, 272" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 237, 341" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 24, 298" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 254, 327" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 257, 200" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 261, 105" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 263, 254" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 269, 425" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 27, 140" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 27, 311" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 270, 292" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 276, 275" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 281, 315" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 284, 250" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 286, 258" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 291, 390" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 296, 335" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 3, 239" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 304, 383" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 305, 223" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 309, 139" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 311, 260" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 312, 373" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 312, 374" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 315, 254" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 318, 358" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 319, 374" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 323, 287" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 327, 301" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 329, 350" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 332, 297" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 341, 217" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 35, 236" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 39, 183" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 41, 161" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 420, 230" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 434, 178" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 439, 159" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 44, 176" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 45, 195" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 455, 250" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 46, 237" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 467, 311" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 470, 107" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 474, 184" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 474, 256" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 477, 104" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 514, 314" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 516, 271" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 56, 180" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 581, 272" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 586, 309" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 61, 270" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 65, 197" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 65, 309" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 65, 314" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 66, 294" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 67, 334" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 68, 313" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 73, 113" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 737, 141" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 75, 179" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 750, 127" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 78, 276" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 83, 238" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 86, 354" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 93, 430" value="1" type="GuiResourceData"/>
+<property name="DIVU.v, 95, 198" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 0, 162" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 0, 81" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 1, 277" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 10, 81" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 145, 388" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 152, 242" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 167, 344" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 178, 304" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 18, 84" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 183, 132" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 183, 374" value="2" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 183, 379" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 195, 346" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 203, 283" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 204, 111" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 26, 425" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 260, 394" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 35, 81" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 43, 214" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 651, 301" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 748, 323" value="1" type="GuiResourceData"/>
+<property name="DIVU_tb.v, 82, 309" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="3" type="GuiResourceData"/>
+<property name="NEXT, Next " value="10" type="GuiResourceData"/>
+<property name="OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, DIVU" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, DIVU_tb" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 0, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 31, 0, MSB, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 31, 1, MSB, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 31, 5, MSB, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 31, 6, MSB, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, busy ; input ; true ; 0 ; 0, 7, input, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, busy ; output ; true ; 0 ; 0, 7, true, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, busy, 7, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, clock, 3, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, dividend ; input ; false ; 0 ; 0, 0, false, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, dividend ; input ; false ; 31 ; 0, 0, false, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, dividend ; input ; true ; 0 ; 0, 0, 0, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, dividend, 0, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, divisor ; input ; false ; 0 ; 0, 1, false, 2" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, divisor ; input ; true ; 0 ; 0, 1, 0, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, divisor, 1, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, input, 1, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, input, 5, Direction, 1" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 5, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 6, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 7, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, q ; input ; false ; 0 ; 0, 5, input, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, q ; output ; false ; 0 ; 0, 5, false, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, q ; output ; true ; 0 ; 0, 5, 0, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, q, 5, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, r ; input ; false ; 0 ; 0, 6, input, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, r ; output ; false ; 0 ; 0, 6, false, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, r ; output ; false ; 31 ; 0, 6, false, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, r ; output ; true ; 0 ; 0, 6, 0, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, r, 6, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, reset, 4, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, start, 2, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_NEW_PROJECT, New Project..." value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="6" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, 2 critical warnings" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, DIVU (DIVU.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, DIVU_tb (DIVU_tb.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="8" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Simulation Settings], 10, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EDIT, Edit" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near endmodule. [D:/Xilinx/Vivado_projects/week6/DIVU/DIVU.srcs/sources_1/new/DIVU.v:67]. ], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_FAMILY_CHOOSER, Artix-7, 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PARTS, xc7a100tcsg324-1 ; 324 ; 135 ; 240 ; 126800 ; 0 ; 0 ; 210 ; 63400 ; 6 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95, 4, 126800, 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PARTS, xc7a100tcsg324-1 ; 324 ; 135 ; 240 ; 126800 ; 0 ; 0 ; 210 ; 63400 ; 6 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95, 4, 324, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PART_PACKAGE_CHOOSER, csg324, 2" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PART_SPEED_CHOOSER, -1, 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_TEMP_CHOOSER, C, 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, D:/Xilinx/Vivado_projects/week6" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, DIV" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, DIVU" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_CHOOSE_COMPILED_LIBRARY_LOCATION, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATOR_LANGUAGE, Verilog, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_TARGET_SIMULATOR, ModelSim Simulator, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="4" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_CANCEL, Cancel" value="3" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="37" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="30" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

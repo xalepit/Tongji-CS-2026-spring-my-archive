@@ -1,0 +1,43 @@
+# ** Error: (vish-7) Failed to open ini file "C:/modeltech_pe_10.4c/win32pe/../modelsim.ini" in read mode.
+# Invalid argument. (errno = EINVAL)
+# ** Error: (vish-7) Failed to open ini file "C:/modeltech_pe_10.4c/win32pe/../modelsim.ini" in read mode.
+# Invalid argument. (errno = EINVAL)
+# do {cpu_tb_simulate.do}
+# vsim -voptargs=""+acc"" "+transport_int_delays" "+pulse_r/0" "+pulse_int_r/0" -L simprims_ver -L secureip -L xil_defaultlib -lib xil_defaultlib xil_defaultlib.cpu_tb xil_defaultlib.glbl 
+# Start time: 19:52:14 on May 18,2026
+# Loading xil_defaultlib.cpu_tb
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading xil_defaultlib.cpu
+# Loading xil_defaultlib.PC
+# Loading xil_defaultlib.inst_decoder
+# Loading xil_defaultlib.controller
+# Loading xil_defaultlib.regfile
+# Loading xil_defaultlib.alu
+# Loading xil_defaultlib.IMEM
+# Loading xil_defaultlib.dist_mem_gen_0
+# Loading xil_defaultlib.dist_mem_gen_0_dist_mem_gen_v8_0_10
+# Loading simprims_ver.GND
+# Loading xil_defaultlib.dist_mem_gen_0_dist_mem_gen_v8_0_10_synth
+# Loading xil_defaultlib.dist_mem_gen_0_rom
+# Loading simprims_ver.MUXF7
+# Loading simprims_ver.LUT6
+# Loading simprims_ver.LUT4
+# Loading simprims_ver.MUXF8
+# Loading simprims_ver.LUT5
+# Loading simprims_ver.LUT3
+# Loading simprims_ver.LUT2
+# Loading xil_defaultlib.DMEM
+# Loading xil_defaultlib.glbl
+# Loading simprims_ver.x_lut3_mux4
+# Loading simprims_ver.x_lut2_mux4
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart -f
+run -all
+# ** Note: $finish    : ../../../../CPU31.srcs/sim_1/new/cpu_tb.v(43)
+#    Time: 1000200 ns  Iteration: 0  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at ../../../../CPU31.srcs/sim_1/new/cpu_tb.v line 43
+# End time: 20:01:12 on May 18,2026, Elapsed time: 0:08:58
+# Errors: 0, Warnings: 0
