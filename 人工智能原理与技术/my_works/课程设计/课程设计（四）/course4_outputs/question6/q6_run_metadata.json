@@ -1,0 +1,86 @@
+{
+  "task": "课程设计四 第六小问 Stable Diffusion v1.5 DreamBooth LoRA 微调",
+  "time": "2026-06-19T19:31:00",
+  "model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "dataset_name": "AmazarashiEndure/Chinese_Landscape_Painting",
+  "dataset_url": "https://huggingface.co/datasets/AmazarashiEndure/Chinese_Landscape_Painting",
+  "dataset_license": "cc-by-4.0",
+  "prepared_dataset_dir": "D:\\AI_Datasets\\AmazarashiEndure_Chinese_Landscape_Painting\\prepared_jpg_csv",
+  "selected_metadata": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question6\\q6_selected_dreambooth_metadata.csv",
+  "training_sample_count": 24,
+  "instance_prompt": "qfhshuimo style, Chinese ink wash landscape painting, misty mountains, river, small boat, xuan paper, black ink, empty space",
+  "validation_prompt": "Poem: 孤舟蓑笠翁，独钓寒江雪. qfhshuimo style, Chinese ink wash painting, lone fisherman, bamboo hat, small boat, snowy river, misty mountains, black ink, empty space",
+  "lora_weight": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question6\\lora_weights\\q6_dreambooth_unet_lora.safetensors",
+  "lora_weight_size_bytes": 6414992,
+  "before_image": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question6\\samples\\q6_before_dreambooth.png",
+  "after_image": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question6\\samples\\q6_after_dreambooth_lora.png",
+  "comparison_image": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question6\\samples\\q6_before_after_comparison.png",
+  "peak_training_memory_mb": 3198.23,
+  "train_text_encoder": false,
+  "config": {
+    "model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "prepared_dataset_dir": "D:\\AI_Datasets\\AmazarashiEndure_Chinese_Landscape_Painting\\prepared_jpg_csv",
+    "output_dir": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question6",
+    "seed": 2452769,
+    "resolution": 512,
+    "train_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "max_train_steps": 240,
+    "max_train_samples": 24,
+    "learning_rate": 0.0001,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_weight_decay": 0.01,
+    "adam_epsilon": 1e-08,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "dataloader_num_workers": 0,
+    "log_interval": 10,
+    "lora_weight_name": "q6_dreambooth_unet_lora.safetensors",
+    "file_column": "file_name",
+    "text_column": "text",
+    "keyword_weights": [
+      [
+        "fishing",
+        6
+      ],
+      [
+        "fisherman",
+        6
+      ],
+      [
+        "boat",
+        5
+      ],
+      [
+        "river",
+        3
+      ],
+      [
+        "water",
+        2
+      ],
+      [
+        "misty",
+        1
+      ]
+    ],
+    "instance_prompt": "qfhshuimo style, Chinese ink wash landscape painting, misty mountains, river, small boat, xuan paper, black ink, empty space",
+    "validation_prompt": "Poem: 孤舟蓑笠翁，独钓寒江雪. qfhshuimo style, Chinese ink wash painting, lone fisherman, bamboo hat, small boat, snowy river, misty mountains, black ink, empty space",
+    "negative_prompt": "low quality, blurry, photorealistic, colorful, cartoon, anime, oil painting, modern city, crowd, text, watermark",
+    "validation_width": 512,
+    "validation_height": 512,
+    "validation_steps": 30,
+    "validation_guidance_scale": 7.5,
+    "dataset_name": "AmazarashiEndure/Chinese_Landscape_Painting",
+    "dataset_url": "https://huggingface.co/datasets/AmazarashiEndure/Chinese_Landscape_Painting",
+    "dataset_license": "cc-by-4.0"
+  },
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.11.0+cu128",
+    "cuda_runtime": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5070"
+  }
+}
