@@ -1,0 +1,74 @@
+﻿{
+  "task": "课程设计四 第五小问 SDXL Base 1.0 水墨风提示词多 seed 推理",
+  "time": "2026-06-19T17:26:55",
+  "base_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+  "model_path": "D:\\AI_Models\\stabilityai_stable-diffusion-xl-base-1.0",
+  "prompt": "Poem: 孤舟蓑笠翁，独钓寒江雪. Chinese ink wash painting, shanshui landscape, lone elderly fisherman, bamboo hat, straw rain cape, small boat on snowy river, misty mountains, xuan paper, black ink, empty space",
+  "negative_prompt": "photorealistic, western oil painting, colorful, modern city, crowd, motorboat, anime, cartoon, blurry, low quality, bad hands, text, watermark",
+  "candidate_images": [
+    {
+      "index": 1,
+      "seed": 2452769,
+      "image_path": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question5\\samples\\q5_sdxl_ink_seed_2452769.png",
+      "width": 1216,
+      "height": 832,
+      "num_inference_steps": 36,
+      "guidance_scale": 7.8
+    },
+    {
+      "index": 2,
+      "seed": 2452770,
+      "image_path": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question5\\samples\\q5_sdxl_ink_seed_2452770.png",
+      "width": 1216,
+      "height": 832,
+      "num_inference_steps": 36,
+      "guidance_scale": 7.8
+    },
+    {
+      "index": 3,
+      "seed": 2452771,
+      "image_path": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question5\\samples\\q5_sdxl_ink_seed_2452771.png",
+      "width": 1216,
+      "height": 832,
+      "num_inference_steps": 36,
+      "guidance_scale": 7.8
+    },
+    {
+      "index": 4,
+      "seed": 2452772,
+      "image_path": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question5\\samples\\q5_sdxl_ink_seed_2452772.png",
+      "width": 1216,
+      "height": 832,
+      "num_inference_steps": 36,
+      "guidance_scale": 7.8
+    }
+  ],
+  "comparison_grid": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question5\\q5_sdxl_ink_seed_comparison.png",
+  "config": {
+    "model_id": "D:\\AI_Models\\stabilityai_stable-diffusion-xl-base-1.0",
+    "output_dir": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question5",
+    "seed": 2452769,
+    "seeds": [
+      2452769,
+      2452770,
+      2452771,
+      2452772
+    ],
+    "width": 1216,
+    "height": 832,
+    "num_inference_steps": 36,
+    "guidance_scale": 7.8,
+    "local_files_only": true,
+    "enable_cpu_offload": true,
+    "grid_columns": 2,
+    "grid_thumbnail_width": 608,
+    "prompt": "Poem: 孤舟蓑笠翁，独钓寒江雪. Chinese ink wash painting, shanshui landscape, lone elderly fisherman, bamboo hat, straw rain cape, small boat on snowy river, misty mountains, xuan paper, black ink, empty space",
+    "negative_prompt": "photorealistic, western oil painting, colorful, modern city, crowd, motorboat, anime, cartoon, blurry, low quality, bad hands, text, watermark"
+  },
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.11.0+cu128",
+    "cuda_runtime": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5070"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "task": "课程设计四 第一小问 Stable Diffusion v1.5 文生图复现",
+  "time": "2026-06-19T14:19:14",
+  "model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "poem": "孤舟蓑笠翁，独钓寒江雪",
+  "prompt": "Chinese poem: 孤舟蓑笠翁，独钓寒江雪. Chinese ink wash painting, xuan paper, black ink, ink diffusion, brush strokes, blank space, lone fisherman in a small boat, snowy river, misty mountains",
+  "negative_prompt": "low quality, blurry, photorealistic, colorful, cartoon, oil painting, modern city, car, crowd, text, watermark, signature, frame",
+  "prompt_token_count": 72,
+  "negative_prompt_token_count": 32,
+  "max_token_count": 77,
+  "seed": 2452769,
+  "width": 512,
+  "height": 512,
+  "num_inference_steps": 30,
+  "guidance_scale": 7.5,
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "python": "3.10.20",
+  "torch": "2.11.0+cu128",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "output_image": "D:\\Backup\\Documents\\GitHub\\Tongji-CS-2026-spring-my-archive\\人工智能原理与技术\\my_works\\课程设计\\course4_outputs\\question1\\q1_poem_ink_fishing_snow.png"
+}
