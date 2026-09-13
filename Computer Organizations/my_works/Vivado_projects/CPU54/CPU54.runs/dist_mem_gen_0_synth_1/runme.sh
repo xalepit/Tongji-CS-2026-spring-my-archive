@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/dist_mem_gen_0_synth_1'
+HD_PWD='D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/dist_mem_gen_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

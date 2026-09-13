@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="14" Path="D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.xpr">
+<Project Version="7" Minor="14" Path="D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="580b2b334a0740f4a5442c0bf25a31f2"/>
@@ -27,7 +27,7 @@
     <Option Name="IPStaticSourceDir" Val="$PPRDIR/CPU54.ip_user_files/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="WTXSimLaunchSim" Val="0"/>
-    <Option Name="WTModelSimLaunchSim" Val="196"/>
+    <Option Name="WTModelSimLaunchSim" Val="197"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
     <Option Name="WTVcsLaunchSim" Val="0"/>
@@ -157,6 +157,18 @@
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../../../materials/54条指令CPU实验相关文档/54条CPU_testbench+coe+results比对文件/mips_54_mars_simulate_student_ForWeb_2024.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../materials/54条指令CPU实验相关文档/mips_54_mars_board_switch_student_2026.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/mips_54_mars_board_switch_student_2026.coe">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>

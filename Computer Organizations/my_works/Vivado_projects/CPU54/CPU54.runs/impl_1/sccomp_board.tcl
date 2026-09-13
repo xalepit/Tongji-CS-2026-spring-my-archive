@@ -42,6 +42,7 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
 
@@ -50,16 +51,16 @@ set rc [catch {
   create_msg_db init_design.pb
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir {D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.cache/wt} [current_project]
-  set_property parent.project_path {D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.xpr} [current_project]
-  set_property ip_repo_paths {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.cache/ip}} [current_project]
-  set_property ip_output_repo {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.cache/ip}} [current_project]
-  add_files -quiet {{D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/sccomp_board.dcp}}
-  add_files -quiet {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.dcp}}
-  set_property netlist_only true [get_files {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.dcp}}]
-  read_xdc -mode out_of_context -ref dist_mem_gen_0 -cells U0 {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_ooc.xdc}}
-  set_property processing_order EARLY [get_files {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_ooc.xdc}}]
-  read_xdc {{D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/constrs_1/new/icf.xdc}}
+  set_property webtalk.parent_dir {D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.cache/wt} [current_project]
+  set_property parent.project_path {D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.xpr} [current_project]
+  set_property ip_repo_paths {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.cache/ip}} [current_project]
+  set_property ip_output_repo {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.cache/ip}} [current_project]
+  add_files -quiet {{D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/sccomp_board.dcp}}
+  add_files -quiet {{D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.dcp}}
+  set_property netlist_only true [get_files {{D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.dcp}}]
+  read_xdc -mode out_of_context -ref dist_mem_gen_0 -cells U0 {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_ooc.xdc}}
+  set_property processing_order EARLY [get_files {{d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_ooc.xdc}}]
+  read_xdc {{D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/constrs_1/new/icf.xdc}}
   link_design -top sccomp_board -part xc7a100tcsg324-1
   write_hwdef -file sccomp_board.hwdef
   close_msg_db -file init_design.pb

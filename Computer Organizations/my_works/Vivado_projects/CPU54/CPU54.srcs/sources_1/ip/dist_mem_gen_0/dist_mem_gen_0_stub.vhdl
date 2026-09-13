@@ -1,11 +1,10 @@
 -- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
--- Date        : Mon Aug 03 09:16:53 2026
+-- Date        : Sat Sep 12 22:44:24 2026
 -- Host        : PC-202601181451 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               {d:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer
---               Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_stub.vhdl}
+-- Command     : write_vhdl -force -mode synth_stub {D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer
+--               Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_stub.vhdl}
 -- Design      : dist_mem_gen_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tcsg324-1

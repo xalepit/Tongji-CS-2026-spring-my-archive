@@ -2,12 +2,12 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Aug 04 17:28:30 2026
-# Process ID: 31052
-# Current directory: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1
+# Start of session at: Sat Sep 12 23:37:37 2026
+# Process ID: 46428
+# Current directory: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1
 # Command line: vivado.exe -log sccomp_board.vds -mode batch -messageDb vivado.pb -notrace -source sccomp_board.tcl
-# Log file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/sccomp_board.vds
-# Journal file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1\vivado.jou
+# Log file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/sccomp_board.vds
+# Journal file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source sccomp_board.tcl -notrace
 Command: synth_design -top sccomp_board -part xc7a100tcsg324-1
@@ -15,46 +15,46 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 30208 
+INFO: Helper process launched with PID 35800 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 269.348 ; gain = 62.211
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 268.996 ; gain = 61.492
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'sccomp_board' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/sccomp_board.v:22]
-INFO: [Synth 8-638] synthesizing module 'sccomp_dataflow' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/sccomp_dataflow.v:23]
-INFO: [Synth 8-638] synthesizing module 'cpu' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/cpu.v:23]
-INFO: [Synth 8-638] synthesizing module 'PC' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/PC.v:23]
-INFO: [Synth 8-256] done synthesizing module 'PC' (1#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/PC.v:23]
-INFO: [Synth 8-638] synthesizing module 'inst_decoder' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/inst_decoder.v:23]
-INFO: [Synth 8-256] done synthesizing module 'inst_decoder' (2#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/inst_decoder.v:23]
-INFO: [Synth 8-638] synthesizing module 'controller' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/controller.v:25]
-INFO: [Synth 8-256] done synthesizing module 'controller' (3#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/controller.v:25]
-INFO: [Synth 8-638] synthesizing module 'regfile' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/regfile.v:23]
-INFO: [Synth 8-256] done synthesizing module 'regfile' (4#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/regfile.v:23]
-INFO: [Synth 8-638] synthesizing module 'alu' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/alu.v:23]
-INFO: [Synth 8-226] default block is never used [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/alu.v:54]
-INFO: [Synth 8-256] done synthesizing module 'alu' (5#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/alu.v:23]
-INFO: [Synth 8-638] synthesizing module 'DIV' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/DIV.v:23]
-INFO: [Synth 8-256] done synthesizing module 'DIV' (6#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/DIV.v:23]
-INFO: [Synth 8-638] synthesizing module 'MUL' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/MUL.v:23]
-INFO: [Synth 8-256] done synthesizing module 'MUL' (7#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/MUL.v:23]
-INFO: [Synth 8-638] synthesizing module 'HI_LO' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/HI_LO.v:23]
-INFO: [Synth 8-256] done synthesizing module 'HI_LO' (8#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/HI_LO.v:23]
-INFO: [Synth 8-638] synthesizing module 'CLZ' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/CLZ.v:23]
-INFO: [Synth 8-256] done synthesizing module 'CLZ' (9#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/CLZ.v:23]
-INFO: [Synth 8-638] synthesizing module 'CP0' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/CP0.v:23]
-INFO: [Synth 8-256] done synthesizing module 'CP0' (10#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/CP0.v:23]
-INFO: [Synth 8-256] done synthesizing module 'cpu' (11#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/cpu.v:23]
-INFO: [Synth 8-638] synthesizing module 'IMEM' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/IMEM.v:23]
-INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_0' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/.Xil/Vivado-31052-PC-202601181451/realtime/dist_mem_gen_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_0' (12#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/.Xil/Vivado-31052-PC-202601181451/realtime/dist_mem_gen_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'IMEM' (13#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/IMEM.v:23]
-INFO: [Synth 8-638] synthesizing module 'DMEM' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/DMEM.v:23]
-INFO: [Synth 8-256] done synthesizing module 'DMEM' (14#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/DMEM.v:23]
-INFO: [Synth 8-256] done synthesizing module 'sccomp_dataflow' (15#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/sccomp_dataflow.v:23]
-INFO: [Synth 8-638] synthesizing module 'seg7x16' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/seg7x16.v:21]
-INFO: [Synth 8-155] case statement is not full and has no default [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/seg7x16.v:86]
-INFO: [Synth 8-256] done synthesizing module 'seg7x16' (16#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/seg7x16.v:21]
-INFO: [Synth 8-256] done synthesizing module 'sccomp_board' (17#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/sccomp_board.v:22]
+INFO: [Synth 8-638] synthesizing module 'sccomp_board' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/sccomp_board.v:22]
+INFO: [Synth 8-638] synthesizing module 'sccomp_dataflow' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/sccomp_dataflow.v:23]
+INFO: [Synth 8-638] synthesizing module 'cpu' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/cpu.v:23]
+INFO: [Synth 8-638] synthesizing module 'PC' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PC' (1#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-638] synthesizing module 'inst_decoder' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/inst_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'inst_decoder' (2#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/inst_decoder.v:23]
+INFO: [Synth 8-638] synthesizing module 'controller' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/controller.v:25]
+INFO: [Synth 8-256] done synthesizing module 'controller' (3#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/controller.v:25]
+INFO: [Synth 8-638] synthesizing module 'regfile' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/regfile.v:23]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (4#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/regfile.v:23]
+INFO: [Synth 8-638] synthesizing module 'alu' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/alu.v:54]
+INFO: [Synth 8-256] done synthesizing module 'alu' (5#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-638] synthesizing module 'DIV' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/DIV.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DIV' (6#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/DIV.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUL' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/MUL.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUL' (7#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/MUL.v:23]
+INFO: [Synth 8-638] synthesizing module 'HI_LO' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/HI_LO.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HI_LO' (8#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/HI_LO.v:23]
+INFO: [Synth 8-638] synthesizing module 'CLZ' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/CLZ.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CLZ' (9#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/CLZ.v:23]
+INFO: [Synth 8-638] synthesizing module 'CP0' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/CP0.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CP0' (10#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/CP0.v:23]
+INFO: [Synth 8-256] done synthesizing module 'cpu' (11#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/cpu.v:23]
+INFO: [Synth 8-638] synthesizing module 'IMEM' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/IMEM.v:23]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_0' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/.Xil/Vivado-46428-PC-202601181451/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_0' (12#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/.Xil/Vivado-46428-PC-202601181451/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'IMEM' (13#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/IMEM.v:23]
+INFO: [Synth 8-638] synthesizing module 'DMEM' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/DMEM.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DMEM' (14#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/DMEM.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sccomp_dataflow' (15#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/sccomp_dataflow.v:23]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/seg7x16.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/seg7x16.v:86]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (16#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/seg7x16.v:21]
+INFO: [Synth 8-256] done synthesizing module 'sccomp_board' (17#1) [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/sccomp_board.v:22]
 WARNING: [Synth 8-3331] design DMEM has unconnected port dm_r
 WARNING: [Synth 8-3331] design controller has unconnected port status[31]
 WARNING: [Synth 8-3331] design controller has unconnected port status[30]
@@ -85,7 +85,7 @@ WARNING: [Synth 8-3331] design controller has unconnected port status[3]
 WARNING: [Synth 8-3331] design controller has unconnected port status[2]
 WARNING: [Synth 8-3331] design controller has unconnected port status[1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 340.508 ; gain = 133.371
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 341.086 ; gain = 133.582
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -95,41 +95,41 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 340.508 ; gain = 133.371
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 341.086 ; gain = 133.582
 ---------------------------------------------------------------------------------
-WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'dist_mem_gen_0' instantiated as 'sccomp/imem/imem' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/IMEM.v:38]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'dist_mem_gen_0' instantiated as 'sccomp/imem/imem' [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/IMEM.v:38]
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/.Xil/Vivado-31052-PC-202601181451/dcp/dist_mem_gen_0_in_context.xdc] for cell 'sccomp/imem/imem'
-Finished Parsing XDC File [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/.Xil/Vivado-31052-PC-202601181451/dcp/dist_mem_gen_0_in_context.xdc] for cell 'sccomp/imem/imem'
-Parsing XDC File [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/constrs_1/new/icf.xdc]
-Finished Parsing XDC File [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/constrs_1/new/icf.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/constrs_1/new/icf.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sccomp_board_propImpl.xdc].
+Parsing XDC File [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/.Xil/Vivado-46428-PC-202601181451/dcp/dist_mem_gen_0_in_context.xdc] for cell 'sccomp/imem/imem'
+Finished Parsing XDC File [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/.Xil/Vivado-46428-PC-202601181451/dcp/dist_mem_gen_0_in_context.xdc] for cell 'sccomp/imem/imem'
+Parsing XDC File [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/constrs_1/new/icf.xdc]
+Finished Parsing XDC File [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/constrs_1/new/icf.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/constrs_1/new/icf.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sccomp_board_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/sccomp_board_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 650.285 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 649.984 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 650.285 ; gain = 443.148
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 649.984 ; gain = 442.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 650.285 ; gain = 443.148
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 649.984 ; gain = 442.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 650.285 ; gain = 443.148
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 649.984 ; gain = 442.480
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "array_reg_reg[31]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "array_reg_reg[30]" won't be mapped to RAM because it is too sparse
@@ -163,7 +163,7 @@ INFO: [Synth 8-5546] ROM "array_reg_reg[3]" won't be mapped to RAM because it is
 INFO: [Synth 8-5546] ROM "array_reg_reg[2]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "array_reg_reg[1]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "array_reg_reg[0]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/MUL.v:37]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.srcs/sources_1/new/MUL.v:37]
 INFO: [Synth 8-5546] ROM "cp0_reg_reg[31]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cp0_reg_reg[30]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cp0_reg_reg[29]" won't be mapped to RAM because it is too sparse
@@ -199,7 +199,7 @@ INFO: [Synth 8-5546] ROM "cp0_reg_reg[0]" won't be mapped to RAM because it is t
 INFO: [Synth 8-5546] ROM "o_seg_r" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5545] ROM "cpu_clk" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 650.285 ; gain = 443.148
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 649.984 ; gain = 442.480
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -358,7 +358,7 @@ BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 650.285 ; gain = 443.148
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 649.984 ; gain = 442.480
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -397,9 +397,9 @@ WARNING: [Synth 8-3331] design controller has unconnected port status[13]
 WARNING: [Synth 8-3331] design controller has unconnected port status[12]
 WARNING: [Synth 8-3331] design controller has unconnected port status[11]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 650.285 ; gain = 443.148
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 649.984 ; gain = 442.480
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 650.285 ; gain = 443.148
+Finished Parallel Reinference  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 649.984 ; gain = 442.480
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -472,9 +472,9 @@ WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][0]) is unused and w
 WARNING: [Synth 8-3332] Sequential element (timer_int_reg) is unused and will be removed from module CP0.
 WARNING: [Synth 8-3332] Sequential element (seg7/o_seg_r_reg[7]) is unused and will be removed from module sccomp_board.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 650.285 ; gain = 443.148
+Finished Area Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:13 . Memory (MB): peak = 649.984 ; gain = 442.480
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 650.285 ; gain = 443.148
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:09 ; elapsed = 00:01:13 . Memory (MB): peak = 649.984 ; gain = 442.480
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -488,10 +488,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 671.992 ; gain = 464.855
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:15 ; elapsed = 00:01:19 . Memory (MB): peak = 671.695 ; gain = 464.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 693.586 ; gain = 486.449
+Finished Timing Optimization : Time (s): cpu = 00:01:38 ; elapsed = 00:01:43 . Memory (MB): peak = 690.398 ; gain = 482.895
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -503,16 +503,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:29 ; elapsed = 00:01:33 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished Technology Mapping : Time (s): cpu = 00:01:47 ; elapsed = 00:01:52 . Memory (MB): peak = 812.512 ; gain = 605.008
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:29 ; elapsed = 00:01:33 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:47 ; elapsed = 00:01:52 . Memory (MB): peak = 812.512 ; gain = 605.008
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:29 ; elapsed = 00:01:33 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:47 ; elapsed = 00:01:52 . Memory (MB): peak = 812.512 ; gain = 605.008
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -529,7 +529,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished IO Insertion : Time (s): cpu = 00:01:48 ; elapsed = 00:01:52 . Memory (MB): peak = 812.512 ; gain = 605.008
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -542,7 +542,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:48 ; elapsed = 00:01:52 . Memory (MB): peak = 812.512 ; gain = 605.008
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -554,25 +554,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 812.512 ; gain = 605.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 812.512 ; gain = 605.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 812.512 ; gain = 605.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 812.512 ; gain = 605.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -626,11 +626,11 @@ Report Instance Areas:
 |12    |  seg7           |seg7x16         |   150|
 +------+-----------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 815.352 ; gain = 608.215
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 812.512 ; gain = 605.008
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 55 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:25 ; elapsed = 00:01:31 . Memory (MB): peak = 815.352 ; gain = 298.438
-Synthesis Optimization Complete : Time (s): cpu = 00:01:30 ; elapsed = 00:01:35 . Memory (MB): peak = 815.352 ; gain = 608.215
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:43 ; elapsed = 00:01:49 . Memory (MB): peak = 812.512 ; gain = 296.109
+Synthesis Optimization Complete : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 812.512 ; gain = 605.008
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 1291 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -643,6 +643,6 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 117 Infos, 85 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:31 ; elapsed = 00:01:35 . Memory (MB): peak = 815.352 ; gain = 608.215
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 815.352 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Aug 04 17:30:07 2026...
+synth_design: Time (s): cpu = 00:01:49 ; elapsed = 00:01:54 . Memory (MB): peak = 812.512 ; gain = 605.008
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 812.512 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 12 23:39:33 2026...

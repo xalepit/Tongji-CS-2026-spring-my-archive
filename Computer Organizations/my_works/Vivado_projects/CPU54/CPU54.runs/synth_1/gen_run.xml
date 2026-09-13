@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1785835710">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1789227457">
   <File Type="RDS-PROPCONSTRS" Name="sccomp_board_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="sccomp_board.tcl"/>
   <File Type="RDS-RDS" Name="sccomp_board.vds"/>
@@ -123,6 +123,18 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../../../materials/54条指令CPU实验相关文档/54条CPU_testbench+coe+results比对文件/mips_54_mars_simulate_student_ForWeb_2024.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../materials/54条指令CPU实验相关文档/mips_54_mars_board_switch_student_2026.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/mips_54_mars_board_switch_student_2026.coe">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>

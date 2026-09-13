@@ -41,19 +41,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports {o_seg[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports reset]
 set_property IOSTANDARD LVCMOS33 [get_ports clk_in]
 
-create_clock -period 10.000 -name clk_pin -waveform {0.000 5.000} [get_ports clk_in]
-create_generated_clock -name cpu_clk -source [get_ports clk_in] -divide_by 2000000 [get_pins cpu_clk_reg/Q]
-create_generated_clock -name seg7_clk -source [get_ports clk_in] -divide_by 32768 [get_pins {seg7/cnt_reg[14]/Q}]
-
-# 异步复位不参与同步数据路径分析
-set_false_path -from [get_ports reset]
-
-# 忽略分频触发器自身反馈产生的伪跨时钟路径
-set_false_path -from [get_pins cpu_clk_reg/Q] \
-               -to [get_pins cpu_clk_reg/D]
-
-set_false_path -from [get_pins {seg7/cnt_reg[14]/Q}] \
-               -to [get_pins {seg7/cnt_reg[14]/D}]
-               
-set_false_path -to [get_ports {o_seg[*] o_sel[*]}]
+create_clock -period 100.000 -name clk_pin -waveform {0.000 50.000} [get_ports clk_in]
+set_input_delay -clock [get_clocks *] 1.000 [get_ports reset]
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
 

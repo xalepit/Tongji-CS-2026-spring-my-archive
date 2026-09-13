@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Mon Aug 03 09:16:20 2026
-# Process ID: 11136
-# Current directory: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/dist_mem_gen_0_synth_1
+# Start of session at: Sat Sep 12 22:43:55 2026
+# Process ID: 8132
+# Current directory: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/dist_mem_gen_0_synth_1
 # Command line: vivado.exe -log dist_mem_gen_0.vds -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_0.tcl
-# Log file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/dist_mem_gen_0_synth_1/dist_mem_gen_0.vds
-# Journal file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Principles of Computer Organization/my_works/Vivado_projects/CPU54/CPU54.runs/dist_mem_gen_0_synth_1\vivado.jou
+# Log file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/dist_mem_gen_0_synth_1/dist_mem_gen_0.vds
+# Journal file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/dist_mem_gen_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source dist_mem_gen_0.tcl -notrace

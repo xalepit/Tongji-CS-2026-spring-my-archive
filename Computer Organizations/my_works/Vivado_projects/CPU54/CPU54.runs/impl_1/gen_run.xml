@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1785836584">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1789227457">
+  <File Type="OPT-DCP" Name="sccomp_board_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="sccomp_board_route_status.pb"/>
   <File Type="PA-TCL" Name="sccomp_board.tcl"/>
-  <File Type="OPT-DCP" Name="sccomp_board_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="sccomp_board_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="sccomp_board_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="sccomp_board.vdi"/>
   <File Type="PWROPT-DRC" Name="sccomp_board_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="sccomp_board_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="sccomp_board_timing_summary_init.rpt"/>
   <File Type="OPT-DRC" Name="sccomp_board_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="sccomp_board_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="sccomp_board.hwdef"/>
@@ -31,8 +31,8 @@
   <File Type="ROUTE-DRC" Name="sccomp_board_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="sccomp_board_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="sccomp_board_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sccomp_board_methodology_drc_routed.pb"/>
   <File Type="BG-BIT" Name="sccomp_board.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sccomp_board_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="sccomp_board_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="sccomp_board_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="sccomp_board_power_routed.rpx"/>
@@ -172,6 +172,18 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../../../materials/54条指令CPU实验相关文档/54条CPU_testbench+coe+results比对文件/mips_54_mars_simulate_student_ForWeb_2024.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../materials/54条指令CPU实验相关文档/mips_54_mars_board_switch_student_2026.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/mips_54_mars_board_switch_student_2026.coe">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
