@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Sat Sep 12 23:37:37 2026
-# Process ID: 46428
+# Start of session at: Tue Sep 15 16:29:40 2026
+# Process ID: 6500
 # Current directory: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1
-# Command line: vivado.exe -log sccomp_board.vds -mode batch -messageDb vivado.pb -notrace -source sccomp_board.tcl
-# Log file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/sccomp_board.vds
+# Command line: vivado.exe -log sccomp_dataflow.vds -mode batch -messageDb vivado.pb -notrace -source sccomp_dataflow.tcl
+# Log file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1/sccomp_dataflow.vds
 # Journal file: D:/Backup/Documents/GitHub/Tongji-CS-2026-spring-my-archive/Computer Organizations/my_works/Vivado_projects/CPU54/CPU54.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source sccomp_board.tcl -notrace
+source sccomp_dataflow.tcl -notrace

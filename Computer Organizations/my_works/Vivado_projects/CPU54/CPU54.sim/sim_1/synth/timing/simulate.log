@@ -1,6 +1,6 @@
 # do {_246tb_ex10_tb_simulate.do}
 # vsim -voptargs=""+acc"" "+transport_int_delays" "+pulse_r/0" "+pulse_int_r/0" -L simprims_ver -L secureip -L xil_defaultlib -lib xil_defaultlib xil_defaultlib._246tb_ex10_tb xil_defaultlib.glbl 
-# Start time: 23:11:54 on Sep 12,2026
+# Start time: 17:00:52 on Sep 14,2026
 # //  ModelSim PE 10.4c Jul 20 2015 
 # //
 # //  Copyright 1991-2015 Mentor Graphics Corporation
@@ -22,37 +22,37 @@
 # Loading xil_defaultlib.DMEM
 # Loading xil_defaultlib.RAM32X1S_UNIQ_BASE_
 # Loading simprims_ver.RAMS32
-# Loading xil_defaultlib.RAM32X1S_HD94
-# Loading xil_defaultlib.RAM32X1S_HD95
-# Loading xil_defaultlib.RAM32X1S_HD96
-# Loading xil_defaultlib.RAM32X1S_HD97
-# Loading xil_defaultlib.RAM32X1S_HD98
-# Loading xil_defaultlib.RAM32X1S_HD99
-# Loading xil_defaultlib.RAM32X1S_HD100
-# Loading xil_defaultlib.RAM32X1S_HD101
-# Loading xil_defaultlib.RAM32X1S_HD102
-# Loading xil_defaultlib.RAM32X1S_HD103
-# Loading xil_defaultlib.RAM32X1S_HD104
-# Loading xil_defaultlib.RAM32X1S_HD105
-# Loading xil_defaultlib.RAM32X1S_HD106
-# Loading xil_defaultlib.RAM32X1S_HD107
-# Loading xil_defaultlib.RAM32X1S_HD108
-# Loading xil_defaultlib.RAM32X1S_HD109
-# Loading xil_defaultlib.RAM32X1S_HD110
-# Loading xil_defaultlib.RAM32X1S_HD111
-# Loading xil_defaultlib.RAM32X1S_HD112
-# Loading xil_defaultlib.RAM32X1S_HD113
-# Loading xil_defaultlib.RAM32X1S_HD114
-# Loading xil_defaultlib.RAM32X1S_HD115
-# Loading xil_defaultlib.RAM32X1S_HD116
-# Loading xil_defaultlib.RAM32X1S_HD117
-# Loading xil_defaultlib.RAM32X1S_HD118
-# Loading xil_defaultlib.RAM32X1S_HD119
-# Loading xil_defaultlib.RAM32X1S_HD120
-# Loading xil_defaultlib.RAM32X1S_HD121
-# Loading xil_defaultlib.RAM32X1S_HD122
-# Loading xil_defaultlib.RAM32X1S_HD123
-# Loading xil_defaultlib.RAM32X1S_HD124
+# Loading xil_defaultlib.RAM32X1S_HD32
+# Loading xil_defaultlib.RAM32X1S_HD33
+# Loading xil_defaultlib.RAM32X1S_HD34
+# Loading xil_defaultlib.RAM32X1S_HD35
+# Loading xil_defaultlib.RAM32X1S_HD36
+# Loading xil_defaultlib.RAM32X1S_HD37
+# Loading xil_defaultlib.RAM32X1S_HD38
+# Loading xil_defaultlib.RAM32X1S_HD39
+# Loading xil_defaultlib.RAM32X1S_HD40
+# Loading xil_defaultlib.RAM32X1S_HD41
+# Loading xil_defaultlib.RAM32X1S_HD42
+# Loading xil_defaultlib.RAM32X1S_HD43
+# Loading xil_defaultlib.RAM32X1S_HD44
+# Loading xil_defaultlib.RAM32X1S_HD45
+# Loading xil_defaultlib.RAM32X1S_HD46
+# Loading xil_defaultlib.RAM32X1S_HD47
+# Loading xil_defaultlib.RAM32X1S_HD48
+# Loading xil_defaultlib.RAM32X1S_HD49
+# Loading xil_defaultlib.RAM32X1S_HD50
+# Loading xil_defaultlib.RAM32X1S_HD51
+# Loading xil_defaultlib.RAM32X1S_HD52
+# Loading xil_defaultlib.RAM32X1S_HD53
+# Loading xil_defaultlib.RAM32X1S_HD54
+# Loading xil_defaultlib.RAM32X1S_HD55
+# Loading xil_defaultlib.RAM32X1S_HD56
+# Loading xil_defaultlib.RAM32X1S_HD57
+# Loading xil_defaultlib.RAM32X1S_HD58
+# Loading xil_defaultlib.RAM32X1S_HD59
+# Loading xil_defaultlib.RAM32X1S_HD60
+# Loading xil_defaultlib.RAM32X1S_HD61
+# Loading xil_defaultlib.RAM32X1S_HD62
 # Loading xil_defaultlib.IMEM
 # Loading simprims_ver.LUT6
 # Loading simprims_ver.LUT5
@@ -98,13 +98,18 @@
 # 
 # No such file or directory. (errno = ENOENT)    : ../../../../CPU54.srcs/sim_1/new/testbench_cpu54_single.v(48)
 #    Time: 0 ps  Iteration: 0  Instance: /_246tb_ex10_tb
-
-
-
-
-
+run -all
+# ** Note: $finish    : ../../../../CPU54.srcs/sim_1/new/testbench_cpu54_single.v(108)
+#    Time: 42180 ns  Iteration: 1  Instance: /_246tb_ex10_tb
+# 1
+# Break in Module _246tb_ex10_tb at ../../../../CPU54.srcs/sim_1/new/testbench_cpu54_single.v line 108
+quit
 
 
 
 
 run -all
+# ** Note: $finish    : ../../../../CPU54.srcs/sim_1/new/testbench_cpu54_single.v(108)
+#    Time: 42220 ns  Iteration: 1  Instance: /_246tb_ex10_tb
+# 1
+# Break in Module _246tb_ex10_tb at ../../../../CPU54.srcs/sim_1/new/testbench_cpu54_single.v line 108
